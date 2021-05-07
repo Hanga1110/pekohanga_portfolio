@@ -1,0 +1,125 @@
+
+body {
+	background-color: #D2B48C;
+	font-size: 20px ;
+	color:#8B4513;
+
+
+
+}
+
+/* A menüsáv beállításai */
+div.menü {
+	background-color: #A0522D;
+	overflow: hidden;
+}
+
+/* A menü linkek beállításai */
+div.menü a {
+	float: left;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 2vh 2vw;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+/* A menü linkek beállításai, amíg az egér felettük van */
+div.menü a:hover {
+	background-color: #D2B48C;
+	color: white;
+}
+
+/* Az aktív link beállításai */
+div.menü a.aktív {
+	background-color: #A0522D;
+	color: white;
+}
+
+/* A szeparáló vonal beállításai*/
+div.szeparáló {
+	border-bottom: 1px  dotted;
+	margin: 2vh 25%;
+}
+
+/* A blokkok beállításai */
+div.blokk {
+
+	border: solid 6px #8B4513;
+	border-radius: 10px;
+	margin: 2vh 1vw 2vh 1vw;
+	padding: 1vh 1vw 1vh 1vw;
+}
+
+/* A blokkok címének beállításai dashed*/
+div.blokk .blokkcím {
+	border-bottom: 3px dashed ;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 2vh;
+	border-bottom-color: #8B4513
+
+
+}
+/* A blokkok tartalmának beállításai */
+div.blokk .blokktartalom {
+	min-height: 20vh;
+}
+/* A szövegdobozok beállításai */
+div.blokktartalom .szövegdoboz {
+
+	border: solid 6px;
+	border-radius: 10px;
+	margin: 2vh 1vw 2vh 1vw;
+	padding: 1vh 1vw 1vh 1vw;
+	min-height: 20vh;
+	border-color:#8B4513;
+
+}
+}
+
+/* A képek beállításai */
+div.blokktartalom .kép {
+	max-height: 20vh;
+	border: solid #8B4513 2px;
+	margin: 0 1vw 0 1vw;
+	float: left;
+}
+
+/* A galériák beállításai */
+div.blokktartalom .galéria { }
+
+/* A sorok beállításai */
+.galéria .sor { }
+
+/* A képdobozok beállításai */
+.sor .képdoboz {
+	width: 20vw;
+	border: solid 3px ;
+	display: inline-block;
+	margin: 1vh 1vw 1vh 1vw;
+	vertical-align: top;
+	border-color:#8B4513;
+
+
+}
+
+/* A képek beállításai */
+.képdoboz .kép {
+	width: 100%;
+
+}
+
+/* A leírások beállításai */
+.képdoboz .leírás {
+	
+	text-align: center;
+	padding-top: 1vh;
+	padding-bottom: 1.5vh;
+}
+img{
+	
+	width: 30%;
+}
+	
